@@ -16,8 +16,8 @@
 
 ## About Myself
 
-After graduate in 2015 I started to work in Regional health care institution as an economist. In 2020 I assepted the offer from private medical center and continued my career path in economics and medical management.
-From time to time I thought about changing field of activity, thought about that type of work, where you can develop and increase your professional skills, see and use created product, help companies and people to make life easier. So I discovered Front-End Developing for myself and started to learn basics. I would like to continue more productive studying with **"The Rolling Scopes Schooll"**, which gives great opportunities to realise your own programming skills through _self_-studying, team communication, online lectures and motivational system of score points.
+After graduating in 2015 I started to work in Regional health care institution as an economist. In 2020 I acsepted the offer from private medical center and continued my career path in economics and medical management.
+From time to time I thought about changing field of activity, thought about the type of work, where you can develop and increase your professional skills, see and use created product, help companies and people to make life easier. So I discovered Front-End Development for myself and started to learn basics. I would like to continue more productive studying with **"The Rolling Scopes School"**, which gives great opportunities to develop your programming skills through _self_-studying, team communication, online lectures and motivational system of score points.
 
 ***************************************
 
@@ -67,14 +67,14 @@ Graduate (specialist), Belarusian-Russian University, Mogilev, Belarus
 
 * JavaScript on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
 
-* The Rolling Scopes Schooll: JS/FE Pre-School 2022Q2 (in progress)
+* The Rolling Scopes School: JS/FE Pre-School 2022Q2 (in progress)
 
 ***************************************
 
 ## Languages
 
-* English - Intermediate (according to EPAM test result on [training.epam.com](https://training.epam.com/))
-* Turkish - Elementary/Pre-Intermediate
+* English - Upper-Intermediate (according to EPAM test result on [training.epam.com](https://training.epam.com/))
+* Turkish - Pre-Intermediate
 * Russian - Native
 
 

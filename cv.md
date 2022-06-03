@@ -1,45 +1,80 @@
-https://nataliamoiseenko.github.io/rsschool-cv/
-
-***************************************
-
 # Natalia Asadchaya
 
 ***************************************
 
 ## Contact Me
 
-_Phone:_ +375 (29) 789-87-13
+**E-mail:** [natallia.moiseenko@gmail.com](mailto:natallia.moiseenko@gmail.com)
 
-_E-mail:_ natallia.moiseenko@gmail.com
+**GitHub:** [nataliamoiseenko](https://github.com/nataliamoiseenko)
 
-_GitHub:_ nataliamoiseenko
+**Discord:** Natalia Asadchaya
 
-_Telegram_ @natasdachaya
+**Telegram:** @natasdachaya
 
 ***************************************
 
 ## About Myself
 
-
+After graduate in 2015 I started to work in Regional health care institution as an economist. In 2020 I assepted the offer from private medical center and continued my career path in economics and medical management.
+From time to time I thought about changing field of activity, thought about that type of work, where you can develop and increase your professional skills, see and use created product, help companies and people to make life easier. So I discovered Front-End Developing for myself and started to learn basics. I would like to continue more productive studying with **"The Rolling Scopes Schooll"**, which gives great opportunities to realise your own programming skills through _self_-studying, team communication, online lectures and motivational system of score points.
 
 ***************************************
 
 ## Skills
 
-* HTML5
+* HTML
 * CSS
-* JavaScript Basics
-* VS Code
+* JavaScript Basics (in progress)
+* VSCode
 * Git, GitHub
 
 ***************************************
 
 ## Code Example
 
+```
+let a = prompt('Enter first number value', '');
+let b = prompt('Enter second number value', '');
 
+getMinValue(a, b);
+
+function getMinValue(x, y) {
+  if (x < y) {
+    alert (`Minimal value is ${x}`);
+  } else {
+    if (y < x) {
+      alert (`Minimal value is ${y}`);
+    }
+  }
+}
+
+```
 
 ***************************************
 
+## Education
 
+Graduate (specialist), Belarusian-Russian University, Mogilev, Belarus
+* Faculty of Economics
++ Department of Economics and Production Management
+
+***************************************
+
+## Experience
+
+* HTML and CSS on [w3schools.com](https://www.w3schools.com/) and [webref.ru](https://webref.ru/)
+
+* JavaScript on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
+
+* The Rolling Scopes Schooll: JS/FE Pre-School 2022Q2 (in progress)
+
+***************************************
+
+## Languages
+
+* English - Intermediate (according to EPAM test result on [training.epam.com](https://training.epam.com/))
+* Turkish - Elementary/Pre-Intermediate
+* Russian - Native
 
 

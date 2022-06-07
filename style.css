@@ -1,3 +1,71 @@
+@font-face {
+  font-family: 'Philosopher', sans-serif;
+  src: url("assets/fonts/Philosopher/Philosopher-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url("assets/fonts/Montserrat/static/Montserrat-ExtraLight.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url("assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px 0px;
+  background-color: #fef9f1;
+}
+
+h1 {
+  padding-left: 50px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: #574940;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Philosopher', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  background-color: #cec3b2;
+}
+
+.header__img {
+  display: block;
+  width: 30%;
+  height: auto;
+}
+
+.header__lastname {
+  font-weight: 400;
 }

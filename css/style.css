@@ -31,10 +31,9 @@ h1 {
   padding-left: 50px;
   font-family: 'Montserrat', sans-serif;
   font-size: 46px;
-  font-weight: 600;
+  font-weight: 600px;
   letter-spacing: 5px;
   color: #fef9f1;
-  /* color: #574940; */
 }
 
 h2 {
@@ -46,6 +45,7 @@ h2 {
 
 p {
   font-family: 'Montserrat', sans-serif;
+  line-height: 140%;
 }
 
 .container {
@@ -66,12 +66,8 @@ p {
 
 .header__img {
   display: block;
-  max-width: 300px;
   height: auto;
-}
-
-.header__lastname {
-  font-weight: 400;
+  max-width: 300px;
 }
 
 .main {
@@ -99,8 +95,16 @@ a {
 }
 
 ul {
-  padding: 0;
+  padding-left: 25px;
   font-family: 'Montserrat', sans-serif;
+}
+
+li + li {
+  margin-top: 5px;
+}
+
+.aside__list {
+  padding: 0;
   list-style: none;
 }
 
@@ -109,14 +113,19 @@ ul {
   background-color: #fff;
 }
 
+.aside__icon {
+  width: 30px;
+  text-align: center;
+  color: #3c7976;
+}
 
-
-
-
+.article__education--list {
+  margin-top: 5px;
+}
 
 .footer {
-  padding: 20px 30px;
   display: flex;
+  padding: 20px 30px;
   align-items: center;
   justify-content: space-between;
   background-color: #08605f;

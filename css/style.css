@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Philosopher', sans-serif;
+  src: url("assets/fonts/Philosopher/Philosopher-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url("assets/fonts/Montserrat/static/Montserrat-ExtraLight.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url("assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px 0px;
+  background-color: #fef9f1;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 46px;
+  letter-spacing: 5px;
+  color: #fef9f1;
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 5px;
+  font-family: 'Philosopher', sans-serif;
+  border-bottom: 2px solid #cec3b2;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 140%;
+}
+
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header {
+  display: flex;
+  height: 180px;
+  align-items: center;
+  background-color: #598381;
+}
+
+.header__img {
+  display: block;
+  height: auto;
+  max-width: 300px;
+}
+
+.header__content {
+  display: flex;
+  padding: 0 30px 0 50px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.header__navigation--list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  list-style: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  padding: 30px 0px 30px 30px;
+  background-color: #b3a396;
+}
+
+.article {
+  width: 70%;
+  padding: 30px 30px 30px 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main__list--item--link {
+  font-family: 'Montserrat', sans-serif;
+  color: #08605f;
+}
+
+.navigation__list--item--link {
+  color: #fff;
+}
+
+.navigation__list--item--link:hover {
+  color: #512e0c;
+}
+
+ul {
+  padding-left: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main__list--item + .main__list--item {
+  margin-top: 5px;
+}
+
+.aside__list {
+  padding: 0;
+  list-style: none;
+}
+
+.article__pre {
+  margin: 16px 0px 0px 0px;
+  background-color: #fff;
+}
+
+.aside__icon {
+  width: 30px;
+  text-align: center;
+  color: #3c7976;
+}
+
+.article__education--list {
+  margin-top: 5px;
+}
+
+.footer {
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #08605f;
+}
+
+.footer__icon {
+  width: 60px;
+  height: auto;
+  fill: #fff
+}
+
+.footer__item {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
